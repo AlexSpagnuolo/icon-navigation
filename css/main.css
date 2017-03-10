@@ -9,3 +9,14 @@ html {
 h1 {
   color: #fff;
 }
+
+.btn {
+  background-color: #15114c;
+  border-color: #15114c;
+}
+
+.btn:hover {
+  background-color: #fff;
+  border-color: #fff;
+  color: black;
+}
