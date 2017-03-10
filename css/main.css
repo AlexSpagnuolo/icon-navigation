@@ -2,7 +2,8 @@ html {
   font-family: "Abhaya Libre", serif;
 }
 
-.nav {
+.masthead {
+  text-align: center;
   background-color: #423ca3;
 }
 
@@ -19,4 +20,24 @@ h1 {
   background-color: #fff;
   border-color: #fff;
   color: black;
+}
+
+li {
+  display: inline-block;
+}
+
+@media only screen and (min-width: 60em) {
+
+  .masthead {
+    text-align: left;
+  }
+
+  .logo {
+    text-align: left;
+  }
+
+  .nav {
+    text-align: right;
+  }
+
 }
